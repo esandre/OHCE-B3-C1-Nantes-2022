@@ -2,26 +2,18 @@
 {
     public class OhceTest
     {
-        [Fact(DisplayName = "QUAND on saisit une chaîne 'toto'" +
+        [Theory(DisplayName = "QUAND on saisit une chaîne <chaîne>" +
                             "ALORS celle-ci est renvoyée en miroir")]
-        public void TestRenvoiMiroirToto()
+        [InlineData("toto")]
+        [InlineData("test")]
+        public void TestRenvoiMiroir(string chaîne)
         {
             // QUAND on saisit une chaîne
-            var resultat = Ohce.Palindrome("toto");
+            var resultat = Ohce.Palindrome(chaîne);
 
             // ALORS celle-ci est renvoyée en miroir
-            Assert.Equal("otot", resultat);
-        }
-
-        [Fact(DisplayName = "QUAND on saisit une chaîne 'test'" +
-                            "ALORS celle-ci est renvoyée en miroir")]
-        public void TestRenvoiMiroirTest()
-        {
-            // QUAND on saisit une chaîne
-            var resultat = Ohce.Palindrome("test");
-
-            // ALORS celle-ci est renvoyée en miroir
-            Assert.Equal("tset", resultat);
+            var miroir = new string(chaîne.Reverse().ToArray());
+            Assert.Equal(miroir, resultat);
         }
     }
 }
