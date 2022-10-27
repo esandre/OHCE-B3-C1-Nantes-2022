@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OHCE", "OHCE\OHCE.csproj", "{BCFC600F-CF6E-47A3-8BCF-8F83B1EF14A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OHCE.Test", "OHCE.Test\OHCE.Test.csproj", "{B8AEC4A0-F714-4A55-BAC5-8CFC660EF650}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCFC600F-CF6E-47A3-8BCF-8F83B1EF14A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCFC600F-CF6E-47A3-8BCF-8F83B1EF14A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCFC600F-CF6E-47A3-8BCF-8F83B1EF14A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCFC600F-CF6E-47A3-8BCF-8F83B1EF14A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8AEC4A0-F714-4A55-BAC5-8CFC660EF650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8AEC4A0-F714-4A55-BAC5-8CFC660EF650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8AEC4A0-F714-4A55-BAC5-8CFC660EF650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8AEC4A0-F714-4A55-BAC5-8CFC660EF650}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACE5E078-E527-4763-9A23-7C9DD327B8EC}
+	EndGlobalSection
+EndGlobal
